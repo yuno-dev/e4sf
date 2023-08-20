@@ -1,0 +1,44 @@
+
+		ul.tabs{
+			margin: 0px;
+			padding: 0px;
+			list-style: none;
+		}
+		ul.tabs li{
+			background: none;
+            width: 163px;
+			color: #222;
+			display: inline-block;
+			padding-top: 10px;
+            padding-bottom: 10px;
+			cursor: pointer;
+		}
+
+		ul.tabs li.current{
+			background: #ededed;
+			color: #222;
+		}
+
+		.tab-content{
+			display: none;
+			background: #ededed;
+			padding: 15px;
+		}
+
+		.tab-content.current{
+			display: inherit;
+		}
+
+@media screen and (max-width:500px) and (min-width:100px) {
+
+    ul.tabs {
+        width: 100%;
+    }
+    ul.tabs li {
+        width: 100%;
+    }
+
+        ul.tabs li.current {
+            width: 100%;
+        }
+}

@@ -1,0 +1,795 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+	background: url('../img/background.jpg') no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	font-family: Arial
+}
+#wrapper{
+    width: 1150px;
+    height: auto;
+    margin: 0 auto;
+}
+
+#sol{
+    float: left;
+    width: 71%;
+    height: auto;
+}
+
+a {color: #313131;}
+
+#slider {
+    width: 100%;
+    background-color: #fff;
+}
+
+.sag {
+    float: right;
+    width: 29%;
+    height: auto;
+}
+
+.logo{
+    width: 30%;
+    text-align: center;
+}
+
+header{
+    float: left;
+    width: 100%;
+    height: 50px;
+    background-color: #992329;
+    border-top: 1px solid #992329;
+    border-radius: 3px;
+}
+
+header nav ul{
+    list-style: none;
+    border-bottom: 8px solid #992329;
+}
+
+header nav ul li{
+     float: left;
+     padding-left: 12px;
+     padding-right: 12px;
+     padding-top: 13px;
+     padding-bottom: 8px;
+}
+
+header nav ul li a {
+     font-family: Oswald;
+     font-size: 17px;
+     color: #fff;
+}
+
+header nav ul li:hover {
+     border-bottom: 4px solid #313131;
+}
+
+header nav ul li:last-child {
+     float: right;
+}
+
+
+.giris{
+    float: right;
+    width: 100%;
+    text-align: left;
+    height: auto;
+    background-color: #fff;
+}
+
+.yanTarafTane {
+    float: right;
+    width: 320px;
+    height: auto;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.yanTarafBaslik {
+    float: right;
+    width: 100%;
+    height: 45px;
+    line-height: 45px;
+    background-color: #992329;
+    text-align: center;
+    font-family: Oswald;
+    font-size: 18px;
+    color: #fff;
+    border: 0px solid #992329;
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+}
+
+.yanTarafAlt {
+    float: right;
+    background-color: #fff;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    border: 0px solid #fff;
+    border-bottom-left-radius: 2px;
+    border-bottom-right-radius: 2px;
+
+}
+
+.yanTarafSunucu {
+    float: right;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    background-color: #fff;
+
+}
+
+.haberBaslik {
+    float: left;
+    width: 100%;
+    min-height: 45px;
+    height: auto;
+    background-color: #4caf50;
+    color: #fff;
+}
+
+.haberBaslikYazi {
+    float: left;
+    margin-top: 8px;
+    margin-left: 18px;
+    color: #fff;
+    font-family: Oswald;
+    font-size: 20px;
+}
+
+.haberBaslikTarih {
+    float: right;
+    margin-top: 8px;
+    margin-right: 18px;
+    color: #313131;
+    font-family: Roboto Condensed;
+    font-size: 17px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 6px;
+    padding-right: 6px;
+    background-color: #fff;
+    border: 1px solid #fff;
+    border-radius: 16px
+}
+
+.haberIcerik {
+    float: left;
+    width: 100%;
+    min-height: 170px;
+    height: auto;
+    background-color: #fff;
+    color: #313131;
+    font-family: Roboto Condensed;
+    font-size: 17px;
+    padding-top: 18px;
+
+}
+
+
+.haberBilgi {
+    float: left;
+    width: 100%;
+    min-height: 40px;
+    height: auto;
+    line-height: 40px;
+    background-color: #fff;
+    color: #313131;
+    margin-bottom: 16px;
+}
+
+.haberBilgiYazi {
+    font-family: Roboto Condensed;
+    font-size: 17px;
+    color: #313131;
+    margin-left: 14px;
+}
+.cizgi {
+    float: left;
+    width: 100%;
+    height: 2px;
+    background-color: #505050;
+}
+a {
+    text-decoration:none;
+}
+
+.script-captcha {margin-left: -210px; margin-bottom: 6px;}
+
+footer {
+    float: left;
+    width: 100%;
+    height: auto;
+    min-height: 50px;
+    line-height: 50px;
+    background-color: #e74c3c;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    color: #fff;
+}
+
+.footerBas {
+    float: left;
+    margin-left: 20px;
+    font-family: Oswald;
+    font-size: 17px;
+    color: #fff;
+}
+
+.footerSon {
+    float: right;
+    margin-right: 20px;
+    color: #fff;
+    font-size: 12px;
+}
+
+.footer-facebook{
+    float: left;
+    color: #606060;
+    margin-top: 3px;
+    margin-right: 10px;
+}
+
+.footer-youtube{
+    float: left;
+    margin-top: 3px;
+    color: #606060;
+}
+
+.footer-facebook a{
+    float: left;
+    color: #606060;
+}
+
+.footer-youtube a{
+    float: left;
+    color: #606060;
+}
+
+.footer-facebook:hover a{
+    color: #808080;
+}
+
+.footer-youtube:hover a{
+    color: #808080;
+}
+
+.sunucu-durumu {
+    border-collapse:collapse;
+    border-spacing:0;
+    width: 100%;
+    height: 115px;
+    color: #fff;
+    background-color: #fff;
+}
+
+.sunucu-durumu .sunucu-kayit {
+    background-color: #CC3300;
+    border: 2px solid #fff;
+}
+
+.sunucu-durumu .sunucu-online{
+    background-color: #996600;
+    border: 2px solid #fff;
+}
+
+.sunucu-durumu .sunucu-surum{
+    background-color: #990000;
+    border: 2px solid #fff;
+}
+
+.ic{
+    float: left;
+    background-color: #fff;
+    width: 100%;
+    height: auto;
+}
+.icBaslik{
+    float: left;
+    margin-top: 10px;
+    border-bottom: 2px solid #313131;
+    background-color: #fff;
+    width: 100%;
+    height: 65px;
+    line-height: 65px;
+}
+
+.icBaslikYazi{
+    padding-left: 15px;
+    color: #313131;
+    font-family: Oswald;
+}
+
+.kayit-ol {
+    padding-left: 190px;
+}
+
+.giris-yap {
+    padding-left: 190px;
+}
+
+.kredi-yukle-table {
+    text-align: center;
+    font-family: Roboto Condensed;
+}
+
+.kredi-yukle-form {
+    text-align: center;
+    font-family: Roboto Condensed;
+    font-size: 19px;
+}
+
+.giris .profil{
+
+background-color: #FFAE00;
+color: #fff;
+width: 85%;
+padding-top: 10px;
+padding-bottom: 10px;
+padding-left: 10px;
+padding-right: 10px;
+border: 1px solid #FFAE00;
+border-radius: 4px;
+
+}
+.giris .profil:hover{
+
+background-color: #FFB84D;
+
+}
+.giris .krediyukle{
+
+background-color: #4CCA2D;
+color: #fff;
+width: 85%;
+margin-top: -20px;
+padding-top: 10px;
+padding-bottom: 10px;
+padding-left: 10px;
+padding-right: 10px;
+border: 1px solid #4CCA2D;
+border-radius: 4px;
+}
+.krediyukle:hover{
+
+background-color: #58D339;
+
+}
+.giris .market{
+
+background-color: #009DFF;
+color: #fff;
+width: 85%;
+margin-top: -20px;
+padding-top: 10px;
+padding-bottom: 10px;
+padding-left: 10px;
+padding-right: 10px;
+border: 1px solid #009DFF;
+border-radius: 4px;
+
+}
+.market:hover{
+
+background-color: #27ACFE;
+
+}
+.giris .cikis{
+
+background-color: #FF1E00;
+color: #fff;
+width: 85%;
+margin-top: -20px;
+padding-top: 10px;
+padding-bottom: 10px;
+padding-left: 10px;
+padding-right: 10px;
+border: 1px solid #FF1E00;
+border-radius: 4px;
+
+}
+.cikis:hover{
+background-color: #FF3F2D;
+}
+
+.pull-left{
+float: left;
+margin-right: 5px;
+}
+
+
+.siralama-table {
+border-collapse: collapse;
+background-color: #fff;
+}
+.siralama-table td {
+font-size: 14px;
+padding: 4px 4px;
+overflow: hidden;
+word-break: normal;
+border-bottom-style:solid;
+border-width:1px;
+border-color:#ccc;
+}
+.siralama-table tr:hover td {
+background-color: #EDEDED;
+color: #000000;
+}
+.siralama-table tr td{
+height: 50px;
+}
+.siralama-table th{
+font-size: 14px;
+padding: 10px 5px;
+border-style: solid;
+border-width: 0px;
+overflow: hidden;
+word-break: normal;
+}
+.siralama-table .baslik {
+background-color: #515151;
+color: #ffffff;
+}
+
+.siralama-table .satir {
+color: #313131;
+background-color: #FFFFFF;
+}
+
+.siralama-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+    }
+
+    
+.txtindent{
+	text-indent:-999px;
+	font-size:0;
+	line-height:0;
+}
+
+
+.form-control{
+    border-radius: 3px;
+    border: 1px solid #D5D5D5;
+    min-width: 250px;
+    min-height: 30px;
+    padding-left: 5px;
+}
+
+.kredi-alanlar{
+    float: right;
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    }
+
+.kredi-alanlar td {
+    border: none;
+    font-size: 14px;
+    text-align: left;
+    padding: 10px 5px;
+    font-family: Arial;
+    }
+
+.kredi-alanlar tr:hover td {
+background-color: #EDEDED;
+color: #000000;
+}
+
+.kredi-alanlar th {
+    border: none;
+    font-size: 14px;
+    text-align: left;
+    padding: 10px 5px;
+    background-color: #515151;
+    color: #fff;
+    font-family: Arial;
+    }
+
+.kredi-alanlar tr:nth-child(even) {
+    background-color: #f2f2f2;
+    font-family: Arial;
+    }
+
+.kayit-ol-table{
+    width: 400px;
+    height: auto;
+}
+
+.kayit-ol-table .kutu {
+    width: 200px;
+    height: 45px;
+}
+
+.kayit-ol-table .kayit-sag{
+    width: 100%;
+    text-align: right;
+}
+
+.kayit-ol-table .kayit-orta{
+    width: 100%;
+    text-align: center;
+}
+
+.sifre-degis-table .kutu {
+    height: 40px;
+}
+
+.email-degis-table .kutu {
+    height: 40px;
+}
+
+.profil-duzenle-table .kutu {
+    height: 40px;
+}
+
+
+.giris-table{
+    width: 400px;
+    height: auto;
+    
+}
+
+.giris-table .kutu {
+    width: 200px;
+    height: 45px;
+}
+
+.giris-table .giris-sag{
+    width: 100%;
+    text-align: right;
+}
+
+.urun{
+    float: left;
+    width: 260px;
+    height: 260px;
+}
+
+.button-profil{
+
+width: 184px;
+
+}
+
+.profil-duzenle{
+margin-left: 75px;
+}
+
+.profil-duzenle .form-control{
+width: 570px;
+}
+
+.profil-sifre-degis{
+margin-left: 185px;
+}
+
+.profil-email-degis{
+margin-left: 185px;
+}
+
+.destek-olustur{
+
+margin-left: 50px;
+}
+
+.destek-olustur-table {
+width: 720px;
+height: 40px;
+}
+
+.yorum-at-table {
+width: 100%;
+height: auto;
+font-family: Roboto Condensed;
+}
+
+.destek-olustur-table .kutu {
+height: 40px;
+}
+.destek-olustur-table .kutu1 {
+width: 100px;
+height: 40px;
+}
+
+#scrollUp {
+
+    bottom: 20px;
+
+    right: 20px;
+
+    background-color: #313131;
+    color: #fff;
+
+    font-size: 12px;
+
+    font-family: sans-serif;
+
+    text-decoration: none;
+    opacity: .9;
+
+    width: 40px;
+
+    text-align: center;
+
+    height: 40px;
+
+    line-height: 50px;
+
+    -webkit-border-radius: 16px;
+
+    -moz-border-radius: 16px;
+
+    border-radius: 4px;
+
+    -webkit-transition: background 200ms linear;
+
+    -moz-transition: background 200ms linear;
+
+    -o-transition: background 200ms linear;
+
+    transition: background 200ms linear;
+
+    -webkit-backface-visibility: hidden;
+}
+
+
+
+#scrollUp:hover {
+
+    background-color: #f00;
+
+}
+
+.sayfa-button{background-color: #F9F9F9; color: #167AC6; width: 100px; height: 36px; line-height: 36px; text-align: center; border: 1px solid #ddd; border-radius: 2px; font-family: Roboto Condensed; font-size: 17px;}
+.sayfa-button:hover{background-color: #ccc;}
+
+.sayfa-buttons{background-color: #F9F9F9; color: #167AC6; margin-right: 5px; width: 36px; height: 36px; line-height: 36px; text-align: center; border: 1px solid #ddd; border-radius: 2px; font-family: Roboto Condensed; font-size: 17px;}
+.sayfa-buttons:hover{background-color: #ccc;}
+
+
+@media screen and (max-width:500px) and (min-width:100px) {
+
+    /*Eğer pencere boyutu 500px ile 100 px arasında ise*/
+
+
+    #wrapper {
+        width: 95%;
+    }
+
+    .haberBaslik {
+        float: left;
+        width: 100%;
+        min-width: 100px;
+        padding: 0;
+    }
+
+    #sol {
+        width: 100%;
+    }
+    .sag {
+    width: 100%;
+}
+
+header nav ul li{
+width: 96%;
+border-bottom: 4px solid #313131;
+     padding-left: 14px;
+     padding-right: 0px;
+     padding-top: 13px;
+     padding-bottom: 8px;
+}
+
+header nav ul li:last-child {
+     float: left;
+}
+
+header{height: auto;}
+
+    .yanTarafTane {
+        width: 100%;
+    }
+
+    .yanTarafSunucu {
+        width: 100%;
+    }
+
+    .footerBas {
+        float: left;
+        margin-left: 10px;
+        font-size: 13px;
+    }
+
+    .footerSon {
+        float: right;
+        margin-right: 10px;
+        font-size: 10px;
+    }
+    .logo{
+    width: 100%;
+    text-align: center;
+}
+    .kayit-ol {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+    .kayit-ol-table{
+    width: 100%;
+    height: auto;
+}
+    .kayit-ol-table .kayit-sag{
+    width: 100%;
+    text-align: center;
+}
+.urun{
+    float: left;
+    width: 100%;
+    height: 260px;
+    text-align: center;
+}
+
+.profil-duzenle{
+margin-left: 5px;
+}
+
+.profil-sifre-degis{
+margin-left: 5px;
+}
+
+.profil-email-degis{
+margin-left: 5px;
+}
+
+
+.button-profil{
+
+width: 100%;
+
+}
+
+.giris .profil{
+
+margin-bottom: 8px;
+
+}
+.giris .krediyukle{
+
+margin-bottom: 8px;
+
+}
+
+.giris .market{
+
+margin-bottom: 8px;
+
+}
+
+.destek-olustur{
+margin-left: 5px;
+}
+
+.destek-olustur-table {
+width: 100%;
+height: 40px;
+}
+
+.giris-yap {
+    padding-left: 2px;
+}
+
+.giris-table{
+width: 100%;	
+}
+.script-captcha {margin-left: 0px; margin-bottom: 6px;}
+}
